@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    height: 100%;
+
+}
+@font-face {
+    font-family: Drunk;
+    src: url(/fonts/Druk-Bold.woff2);
+}
+html{
+    height: 100%;
+}
+.row{
+display: flex;
+height: 100%;
+}
+.right{
+width: 45%;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+padding-left: 11%;
+}
+.left{
+width: 55%;
+padding:40px 220px 50px 80px;
+
+}
+.chica{
+    background-image: url(../img/chica.jpg);
+    background-size: cover;
+    height: 100%;
+}
+.letra-g{
+    margin-top: 70px;
+    color: white;
+    font-size: 60px;
+    font-family: Drunk;
+    
+}
+.letra-p{
+    color:white;
+    font-size: 15px;
+    line-height: 25px;
+    text-shadow: 1px 1px rgb(91, 90, 90);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.letra-n{
+    color:black;
+    font-size:50px ;
+    font-family: Drunk;
+}
+.enlace{
+    list-style: none;
+    color:rgb(92, 19, 245);
+    display:inline-flex;
+}
+.enlaced{
+    margin-left: 50px; }
+a{
+    text-decoration: none;
+}
+.alinea{
+    text-decoration: none;
+    color: rgb(92, 19, 245);
+    border-bottom: solid 3px;
+}
+a:visited{
+   color:rgb(92, 19, 245) ;
+}
+
+.linea{
+    padding: 3px 20px;
+}
+.text{
+    margin-right: 180px;
+}
+input{
+    width: 71%;
+    padding: 15px;
+    border: solid 1px black;
+    color:rgb(183, 182, 182);
+}
+.morado{
+ color:rgb(92, 19, 245) ;
+ font-size: 12px;
+}
+.negro{
+    font-size: 12px;
+    
+}
+.boton{
+  background-color:rgb(92, 19, 245) ;
+  color: white;
+  width: 38%;
+}
+.margin{
+    margin-top: 30px;
+    margin-bottom:20px ;
+}
+
